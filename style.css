@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+:root {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --base-font: "Nunito", sans-serif;
+  --header-font: "Alegreya", serif;
+  --color-accent: #c51602;
+}
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: var(--base-font);
+  line-height: 1.75;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--header-font);
+  margin: 2rem 0 1.38rem;
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+h1 {
+  margin-top: 0;
+  font-size: 2.488rem;
+}
+h2 {
+  font-size: 1.602rem;
+}
+
+h3 {
+  font-size: 1.424rem;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.44rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+.bscren img {
+  height: 350px;
+}
+.index img {
+  max-width: 100%;
+  object-fit: cover;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: var(--color-accent);
+}
+
+/*--------------------------------------------------------NAME----------------------------------------*/
+.name-wrapper h1 {
+  padding-left: 1rem;
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.first-name {
+  transition: all 0.3s ease-in 0.2s;
+}
+.last-name {
+  transition: all 0.3s ease-in 0.3s;
+}
+/*--------------------------------------------------------MENU----------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo,
+.content {
+  color: #fff;
+}
+.logo {
+  margin: 0 2rem;
+}
+.nav {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+#hamburger {
+  margin: 2%;
+}
+
+#hamburger {
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.25s linear;
+  width: clamp(1.5rem, 2vw + 1.1rem, 6rem);
+  height: clamp(2rem, 1.4vw + 1.7rem, 5rem);
+  display: flex;
+  align-items: center;
+}
+
+#hamburger:hover {
+  opacity: 1;
+}
+
+#hamburger div,
+#hamburger div:after,
+#hamburger div:before {
+  background-color: #fafafa;
+  border-radius: 1rem;
+  width: clamp(1.5rem, 2vw + 1.1rem, 6rem);
+  height: clamp(0.2rem, 0.3vw + 0.1rem, 0.8rem);
+  transition: all 0.15s linear;
+}
+
+#hamburger div:before,
+#hamburger div:after {
+  content: "";
+  position: absolute;
+}
+
+#hamburger div:before {
+  transform: translateY(-200%);
+}
+
+#hamburger div:after {
+  transform: translateY(200%);
+}
+
+#hamburger.open div {
+  background: transparent;
+}
+
+#hamburger.open div:before {
+  transform: rotate(45deg);
+}
+
+#hamburger.open div:after {
+  transform: rotate(-45deg);
+}
+
+#overlay {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  background-color: black;
+  z-index: 10;
+  transform: translateY(-100%);
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#overlay.menu {
+  transform: translateY(0%);
+}
+
+#overlay a {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 2.488rem;
+  margin: 2%;
+  opacity: 0.5;
+  transition: opacity 0.2s linear;
+}
+
+#overlay a:hover {
+  opacity: 1;
+}
+.hidden {
+  overflow: hidden;
+}
+.scroll {
+  overflow: visible;
+}
+/*------------------------------------------CARDS------------------------------------------*/
+.cards-wrapper {
+  display: flex;
+  padding: 1rem;
+}
+
+.content-wrapper {
+  display: grid;
+  column-gap: 10px;
+  row-gap: 2rem;
+}
+
+article {
+  border: grey solid 1px;
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: flex-start;
+  align-items: stretch;
+  position: relative;
+}
+article > h3 {
+  padding-left: 1rem;
+}
+article > section,
+article > p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+article:hover {
+  box-shadow: wheat 2px 2px;
+}
+
+.index-1 {
+  position: absolute;
+  z-index: 2;
+  margin: 1.1rem 0 1.38rem;
+}
+.index-2 p {
+  font-size: 0.75rem;
+}
+.index-2 {
+  display: flex;
+  position: absolute;
+  gap: 10px;
+  z-index: 2;
+  padding-top: 3rem;
+}
+.index-3 {
+  position: absolute;
+  z-index: 2;
+  padding-top: 8rem;
+}
+.index-4 {
+  position: absolute;
+  z-index: 2;
+  margin: 5rem 0 1.38rem;
+}
+.index-2 p::after {
+  content: " | ";
+  width: auto;
+}
+.index-2 p:first-child::before {
+  content: "";
+  width: auto;
+}
+.index-2 p:last-child:after {
+  content: "";
+  width: auto;
+}
+.card img {
+  z-index: 0;
+  opacity: 50%;
+}
+.languages::after li {
+  content: "|";
+}
+.card .linkImg {
+  opacity: 0;
+  height: 250px;
+}
+.card .coverImg {
+  border-radius: 1rem;
+}
+.card a span {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+}
+/*------------------------------------------ABOUT------------------------------------------*/
+#about {
+  margin: 1rem;
+  display: grid;
+  border: #fff 1px solid;
+  border-radius: 10px;
+}
+.bscren {
+  display: grid;
+}
+.about-section {
+  display: flex;
+  margin: 1rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+.about-section p:nth-child(2) {
+  text-align: right;
+}
+.about-img {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.about-img h2 {
+  text-decoration: underline;
+}
+.about-img img {
+  opacity: 100%;
+  border-radius: 10px;
+}
+/*------------------------------------------FOOTER------------------------------------------*/
+#contact {
+  margin-left: 1rem;
+}
+#contact ul {
+  display: flex;
+  gap: 10px;
+}
+li,
+ul {
+  list-style: none;
+}
+footer {
+  margin: 1rem 1rem 2rem 2rem;
+}
+/*------------------------------------------PROJECT PAGE------------------------------------------*/
+.single-project-main {
+  margin: 3rem;
+  display: grid;
+  gap: 1rem;
+}
+.single-project-main img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.single-project-main img {
+  border-radius: 0.3rem;
+}
+.single-project {
+  display: grid;
+  row-gap: 1rem;
+  margin: 0;
+}
+.main-project {
+  border: #fff 2px solid;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.project-img-container h2 {
+  border: #fff 2px solid;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.project-img-container {
+  display: grid;
+}
+.intro {
+  border: white 2px solid;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+@media only screen and (min-width: 572px) {
+  .content-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 0.8fr));
+    column-gap: 1rem;
+    row-gap: 2rem;
+    margin: 0 0.5rem;
+  }
+  article {
+    height: 400px;
+  }
+  article img {
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .content-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2rem;
+    row-gap: 2rem;
+    margin: 0 2rem;
+  }
+  .single-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .single-project {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 1rem;
+    justify-items: stretch;
+  }
+  .logo {
+    margin: 0 5rem;
+  }
+  .bscren {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 0 4rem;
+  }
+  .project-img-container {
+    display: grid;
+    align-items: center;
+    justify-items: stretch;
+    column-gap: 2rem;
+  }
+  .project-img-container h2 {
+    grid-row: 1;
+  }
+  .project-img-container img {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .content-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 2rem;
+    row-gap: 2rem;
+    margin: 0 2rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .content-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: 3rem;
+    row-gap: 2rem;
+    margin: 0 2rem 3rem 2rem;
+  }
+}
