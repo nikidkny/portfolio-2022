@@ -35,7 +35,7 @@
     "shortDesc": "This project is to showcase the usage of databases and their manipulation, JavaScript functions, closures, arrays, flags amongst other things.",
     "fullDesc": "In this assignment there were several user requirements.  Firstly, the data of the students from a json URL needed to be fetched and formatted/cleaned up by my code. Other data related to these students (their blood type) are stored at a different json URL and needed to be calculated and assigned to each student.  Then, the students needed to be displayed as a list, which can be sorted by first and last names, group them by criteria (houses, responsibilities), filtered by house, enrolled or expelled students and searched by at least name.  Adding to these, the user had to be able to remove from the list of students and add to expelled. There were different responsibilities that the user needed to be able to assign to students and, for some, to take these away. As for the last function, the system needed to be “hacked”. In this, when a specific keystroke (in my case these were the number 1 and the letter n) is entered multiple things happen. My data is inserted in the list permanently (not being able to expel only after reloading disappear), the blood type data is disarranged and being part of the inquisitorial squad is only for a limited time.",
     "tags": ["HTML", "CSS", "JavaScript"],
-    "coverImg_url": ".media/hogwarts-landing.png",
+    "coverImg_url": "./media/hogwarts-landing.png",
     "mockups_url": "./media/hogwarts-mockup.png",
     "link_url": "https://nikidkny.github.io/hacked_hogwarts/"
   }
