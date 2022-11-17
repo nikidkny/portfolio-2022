@@ -328,6 +328,10 @@ article:hover {
   border-radius: 10px;
 }
 /*------------------------------------------FOOTER------------------------------------------*/
+footer {
+  display: flex;
+  justify-content: space-between;
+}
 #contact {
   margin-left: 1rem;
 }
@@ -341,6 +345,12 @@ ul {
 }
 footer {
   margin: 1rem 1rem 2rem 2rem;
+}
+.footerlogo {
+  content: url("./media/logo.svg");
+  background-color: #fff;
+  padding: 1rem;
+  width: 1.5rem;
 }
 /*------------------------------------------PROJECT PAGE------------------------------------------*/
 .single-project-main {
