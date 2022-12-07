@@ -1,4 +1,5 @@
 "use strict";
+
 document.addEventListener("DOMContentLoaded", init);
 const hamburger = document.querySelector("#hamburger");
 const menu = document.querySelector("#overlay");
