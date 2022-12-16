@@ -457,7 +457,11 @@ footer h5 {
   max-width: 100%;
   border-radius: 0.3rem;
   object-fit: cover;
+  height: 800px;
+  width: 900px;
+  align-items: center;
 }
+
 @media only screen and (min-width: 572px) {
   .content-wrapper {
     display: grid;
@@ -516,7 +520,7 @@ footer h5 {
   .project-img-container {
     display: grid;
     align-items: center;
-    justify-items: stretch;
+    justify-items: center;
     column-gap: 2rem;
   }
   .project-img-container h2 {

@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Fonts & UI components",
     "shortDesc": "In this project the goal was to create font hierarchy, and verifying using Type Scale and then apply to website. As well as improving the UI components",
-    "fullDesc": "My chosen font - \"Nunito\", sans-serif was used  as body font , while \"Alegreya\", serif was to display font for headers and UI elements. Working with different fonts has made me realise the importance of  spacing, font weights and margins.<br>As for the second part of the project I improved the UI components including cards with a list of users with provided details and CTAs. This part of the assignment required the use of color on interactive elements and subtle border colors as well.",
+    "fullDesc": "My chosen font - \"Nunito\", sans-serif was used  as body font , while \"Alegreya\", serif was to display font for headers and UI elements. Working with different fonts has made me realise the importance of  spacing, font weights and margins.As for the second part of the project I improved the UI components including cards with a list of users with provided details and CTAs. This part of the assignment required the use of color on interactive elements and subtle border colors as well.",
     "tags": ["HTML", "CSS"],
     "coverImg_url": "./media/ui-components-landing.jpg",
     "mockups_url": "./media/ui-components-mockup.jpg",
