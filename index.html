@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Mobile mockup image by <a href="https://www.freepik.com/free-psd/youtube-mobile-phone-mockup_13907863.htm#query=mobile%20mockup&position=8&from_view=search&track=sph">Image by syifa5610</a> on Freepik -->
     <!-- Website mockup image by <a href="https://www.freepik.com/free-psd/artist-room-decorated-with-website-mockup_12220960.htm#query=website%20mockup&position=1&from_view=search&track=sph">Freepik</a> -->
+    <!-- <a href="https://www.freepik.com/free-psd/digital-device-screen-mockup-vector-with-laptop-smartphone-with-gradient-wallpapers_17611603.htm#query=website%20mockup&position=0&from_view=search&track=sph">Image by rawpixel.com</a> on Freepik -->
     <script src="https://kit.fontawesome.com/585e945e26.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Nikolett Dékány - Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
   </head>
   <body class="body">
     <header class="position">
       <div id="overlay">
-        <a href="index.html">Home</a>
-        <a href="index.html#works">Projects</a>
-        <a href="index.html#about">About me</a>
-        <a href="index.html#contact">Contact</a>
+        <a class="dark-orange" href="index.html">Home</a>
+        <a class="turquoise" href="index.html#works">Projects</a>
+        <a class="purple" href="index.html#about">About me</a>
+        <a class="green2" href="index.html#contact">Contact</a>
       </div>
       <div class="nav">
         <div class="logo"><a href="">nikolettdkny</a></div>
@@ -27,21 +29,39 @@
     <main class="index">
       <div class="bscren">
         <section class="name-wrapper">
-          <h1 class="first-name">Nikolett</h1>
+          <h1 class="first-name turquoise">Nikolett</h1>
+          <div class="line"></div>
           <h1 class="last-name">Dékány</h1>
         </section>
         <section id="about">
           <div class="about-section">
-            <div class="about-img">
+            <div class="about-me">
               <h2>About me</h2>
-              <img src="./media/portre.jpg" alt="" />
             </div>
-            <p>Frontend Developer</p>
-            <p>
-              My name is Nikolett and I came from Hungary to Denmark 3 years ago. I am currently studying on the
-              Multimedia design course Frontend elective at KEA - Københavns Erhvervsakademi and looking for a frontend
-              developer internship from the end of January 2023.
-            </p>
+            <div class="about-img">
+              <div class="bgscrps">
+                <img class="bgscrn-img" src="./media/portre.jpg" alt="" />
+                <p>Frontend Developer</p>
+              </div>
+              <p>
+                My name is Nikolett I'm Hungarian and I canme to Denmark 3 years ago. I am currently studying Multimedia
+                design at KEA - Københavns Erhvervsakademi and looking for a frontend developer internship from the end
+                of January 2023.
+              </p>
+
+              <div class="skill-container">
+                <img class="skill" src="/media/svg/FIGMAelipse.svg" alt="" />
+                <img class="skill" src="/media/svg/PSelipse.svg" alt="" />
+                <img class="skill" src="/media/svg/XDelipse.svg" alt="" />
+                <img class="skill" src="/media/svg/GITelipse.svg" alt="" />
+                <img class="skill" src="/media/svg/CSSelipse.svg" alt="" />
+                <img class="skill" src="/media/svg/HTMLELIPSE.svg" alt="" />
+                <img class="skill" src="/media/svg/JSelipse.svg" alt="" />
+                <img class="skill sass" src="/media/svg/SASSelipse.svg" alt="" />
+                <img class="skill" src="/media/svg/REACTelipse.svg" alt="" />
+                <img class="skill next" src="/media/svg/Nextjs.svg" alt="" />
+              </div>
+            </div>
           </div>
         </section>
       </div>
@@ -54,20 +74,22 @@
     <footer>
       <section id="contact">
         <span>2022 © Nikolett Dékány</span>
-        <ul>
-          <li>
-            <a href="https://dk.linkedin.com/in/nikolettdekany">LinkedIn</a>
-          </li>
-          <li><a href="https://github.com/nikidkny">GitHub</a></li>
-          <li><a href="mailto: d.nikolett2@gmail.com">Email</a></li>
-        </ul>
+        <div class="contact-links">
+          <h5>Contacts:</h5>
+          <ul>
+            <li>
+              <a href="https://dk.linkedin.com/in/nikolettdekany">LinkedIn</a>
+            </li>
+            <li><a href="https://github.com/nikidkny">GitHub</a></li>
+            <li><a href="mailto: d.nikolett2@gmail.com">Email</a></li>
+          </ul>
+        </div>
       </section>
-      <img class="footerlogo" src="" alt="logo" />
     </footer>
     <template>
       <article>
-        <a href="project.html" class="project-open index-4"> <img src="" alt="" class="linkImg" /><span>➤</span></a>
-        <h3 class="project-name index-1"></h3>
+        <a href="project.html" class="project-open index-4"><img src="" alt="" class="linkImg" /></a>
+        <h3 class="project-name index-1">Name</h3>
         <section class="languages index-2">
           <p class="lang-tag">HTML</p>
           <p class="lang-tag">CSS</p>

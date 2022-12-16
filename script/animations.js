@@ -1,4 +1,11 @@
 "use strict";
+import { timeline } from "https://cdn.skypack.dev/motion";
+const sequence = [
+  [".first-name", { translateX: 300 }, { duration: 1.5 }],
+  [".last-name", { translateX: 300 }, { duration: 1.5 }],
+];
+
+timeline(sequence, { duration: 2, delay: 0.1 });
 
 document.addEventListener("DOMContentLoaded", init);
 const hamburger = document.querySelector("#hamburger");
