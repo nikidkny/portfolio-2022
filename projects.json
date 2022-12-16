@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "name": "Colors and Animation",
+    "name": "Colors & Animation",
     "shortDesc": "Goal of this assignment was apply a color pallet to a mockup landing page design, then add animations. ",
     "fullDesc": "In this assignment I generated a color palette on huemint.com. The colors I decided to go with were more colourful than I would have done previously, but in order to challenge myself, and really see how can I work with colors  this was important. The primary color of my design is a colder toned turquoise that leans more on the green side. The secondary color is a dark shade of green that is capturing user's attention to important elements like headers and icons. The last color is similar to Rust Red for an accent color as CTA buttons, links. This webpage also includes animations created with CSS animation with the Web Animations API in JavaScript. As the last element of the process I included a media query altering my website in case of users using a 'Dark Mode' since my website was pretty dark already the changes are rather miniscule.",
     "tags": ["HTML", "CSS", "JavaScript"],
@@ -57,7 +57,7 @@
   },
   {
     "id": 6,
-    "name": "One Motion Excercises",
+    "name": "One Motion",
     "shortDesc": "This project is to try and experiment with the Web API based animation library, Motion One.",
     "fullDesc": "We had a base filepackage with the objects to animate. The link has the github repository with 2 different project that shows the process of learning to use this library. The `beachball.js` is the first try of basic animation with Motion One using translateX, rotate and scale and later on by the usage of timeline. Timeline was useful to sequence animations, where each on runs after the previous. The second js file, `multiballs`, contains an example of how to use a single animation that works just as querySelectorAll would and animate multiple object.",
     "tags": ["HTML", "CSS", "JavaScript", "Motion One"],
