@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Fonts & UI components",
+    "name": "UI components",
     "shortDesc": "In this project the goal was to create font hierarchy, and verifying using Type Scale and then apply to website. As well as improving the UI components",
     "fullDesc": "My chosen font - \"Nunito\", sans-serif was used  as body font , while \"Alegreya\", serif was to display font for headers and UI elements. Working with different fonts has made me realise the importance of  spacing, font weights and margins.As for the second part of the project I improved the UI components including cards with a list of users with provided details and CTAs. This part of the assignment required the use of color on interactive elements and subtle border colors as well.",
     "tags": ["HTML", "CSS"],
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "name": "Colors & Animation",
+    "name": "Animation",
     "shortDesc": "Goal of this assignment was apply a color pallet to a mockup landing page design, then add animations. ",
     "fullDesc": "In this assignment I generated a color palette on huemint.com. The colors I decided to go with were more colourful than I would have done previously, but in order to challenge myself, and really see how can I work with colors  this was important. The primary color of my design is a colder toned turquoise that leans more on the green side. The secondary color is a dark shade of green that is capturing user's attention to important elements like headers and icons. The last color is similar to Rust Red for an accent color as CTA buttons, links. This webpage also includes animations created with CSS animation with the Web Animations API in JavaScript. As the last element of the process I included a media query altering my website in case of users using a 'Dark Mode' since my website was pretty dark already the changes are rather miniscule.",
     "tags": ["HTML", "CSS", "JavaScript"],
