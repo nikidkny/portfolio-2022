@@ -38,7 +38,7 @@
     "shortDesc": "This project is the result of my 2 semester group exam, where our chosen start-up was in need of a new brand identity and website with a webshop.",
     "fullDesc": "For this exam task, I have mostly been responsible for part of the development of the website and most of the design process, such as prototyping. This website has a webshop where the products are fetched from a database based on restdb.io.",
     "tags": ["HTML", "CSS", "JavaScript"],
-    "coverImg_url": "./media/solomon-shop.jpg",
+    "coverImg_url": "./media/Solomon-shop.jpg",
     "mockups_url": "./media/solomon-mockup.jpg",
     "otherimg": "",
     "link_url": "https://exam-project-sst.netlify.app/"
